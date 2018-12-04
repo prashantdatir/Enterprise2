@@ -7,14 +7,14 @@ target 'Enterprise' do
 
   # Pods for Enterprise
 
-pod "TPKeyboardAvoidingSwift", '~> 3.1' 
-pod 'SVProgressHUD', '~> 2.2.5' 
-pod 'GoogleMaps', '~> 2.7.0' 
-pod 'GooglePlaces', '~> 2.7.0'
-pod 'MagicalRecord', '~> 2.3.2'
-pod 'Cosmos', '~> 17.0'
-pod 'IQKeyboardManagerSwift', '~> 6.2.0'
-pod 'SkyFloatingLabelTextField', '~> 3.6.0'
+  pod "TPKeyboardAvoidingSwift"
+  pod 'SVProgressHUD'
+  pod 'GoogleMaps'
+  pod 'GooglePlaces'
+  pod 'MagicalRecord'
+  pod 'Cosmos'
+  pod 'IQKeyboardManagerSwift'
+  pod 'SkyFloatingLabelTextField'
 
   target 'EnterpriseTests' do
     inherit! :search_paths
