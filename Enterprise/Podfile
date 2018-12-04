@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '9.0'
 
 target 'Enterprise' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
@@ -15,6 +15,7 @@ pod 'MagicalRecord'
 pod 'Cosmos', '~> 17.0'
 pod 'IQKeyboardManagerSwift'
 pod 'SkyFloatingLabelTextField', '~> 3.0'
+
   target 'EnterpriseTests' do
     inherit! :search_paths
     # Pods for testing
