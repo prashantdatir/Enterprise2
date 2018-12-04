@@ -7,7 +7,7 @@ target 'Enterprise' do
 
   # Pods for Enterprise
 
-# pod "TPKeyboardAvoidingSwift" 
+pod "TPKeyboardAvoidingSwift", '~> 3.1' 
 pod 'SVProgressHUD'
 pod 'GoogleMaps'
 pod 'GooglePlaces'
